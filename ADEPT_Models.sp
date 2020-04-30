@@ -52,8 +52,6 @@ public void OnPluginStart() {
 public void OnMapStart() {
     PrecacheModel("models/player/custom_player/legacy/ctm_st6_varianta.mdl", true);
     PrecacheModel("models/player/custom_player/legacy/tm_phoenix_varianta.mdl", true);
-    PrecacheModel("models/weapons/ct_arms_st6.mdl", true);
-    PrecacheModel("models/weapons/t_arms_phoenix.mdl", true);
     Download();
     LoadConfig();
 }
