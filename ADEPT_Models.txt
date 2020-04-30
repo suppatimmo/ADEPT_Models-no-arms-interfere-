@@ -1,0 +1,34 @@
+"Models"
+{	
+	"MOD_TAG" "ADEPT" // TAG Pokazywany na czacie / w menu
+	"show_in_menu" "1" // Jeżeli gracz nie ma danej flagi czy ma pokazywać mu tą kategorię? 1 - tak 0 - nie
+	"no_category" "1" // Jeżeli jest tylko jedna kategoria to nie wyskoczy jej wybór tylko od razu modele (jeżeli są pod flagę będą niemożliwe do wybrania przez graczy bez flagi)
+	
+	"VIP" // Nazwa grupy pokazanej w menu
+	{
+		"flag" "o" // Flaga, którą gracz musi mieć aby ustawić model z tej grupy. Puste pole oznacza, że każdy może ustawić model z tej grupy
+				   // Można również podać STEAMID i grupa będzie przeznaczona tylko i wyłącznie dla osoby z danym STEAMID (Grupy pod STEAMID są wyświetlane tylko osobie z tym STEAMID)
+
+		"CT GIGN CS:S"
+		{
+			"model" "models/player/custom_player/eminem/css/ct_gign.mdl" // Ścieżka modelu
+			"team" "CT" // [CT/TT/BOTH]
+		}
+		"TT Leet CS:S"
+		{
+			"model" "models/player/custom_player/eminem/css/t_leet.mdl"
+			"team" "TT"
+		}
+	}
+	
+	"Test STEAMID"
+	{
+		"flag" "STEAM_1:1:220315125"
+		
+		"Negan"
+		{
+			"model" "models/player/custom_player/kodua/negan/negan.mdl"
+			"team" "BOTH"
+		}
+	}
+}
